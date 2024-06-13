@@ -9,7 +9,8 @@ body{
     position: relative;
 }
 h1{
-    margin: 30px;
+   margin-top: 20px;
+   margin-left: 10px;
     color: azure;
     font-family: "Bungee Shade", sans-serif;
     font-size: 68px;
@@ -18,17 +19,19 @@ h1{
 }
 .nav1{
     position: sticky;
+    top: 20px;
     text-align: center;
 }
 
 .a1{
-    font-size: 20px;
-    background-color: azure;
-    color: rgb(221, 67, 149);
+  
+    font-size: 30px;
+    background-color:  rgb(244, 193, 210);
+    color: azure;
     text-decoration: none;
     border-radius: 20px;
-    border: 2px solid rgb(221, 67, 149);
-    padding: 20px;
+    border: 5px solid rgb(221, 67, 149);
+    padding: 10px;
     margin-left: 30px;
     
    
@@ -107,7 +110,7 @@ img:hover{
 #in1, #in2{
     background-color: rgb(244, 193, 210);
     font-size: 20px;
-    margin-left: 300px;
+    margin-left: 38%;
     width: 600px;
     height: 60px;
     margin-bottom: 20px;
@@ -121,9 +124,8 @@ img:hover{
 
 #in3{
     background-color: rgb(244, 193, 210);
-   
     font-size: 20px;
-    margin-left: 300px;
+    margin-left: 38%;
     width: 600px;
     height: 170px;
     margin-bottom: 20px;
@@ -137,7 +139,7 @@ img:hover{
 
 button{
     font-size: 30px;
-    margin-left: 300px;
+    margin-left: 38%;
     width: 600px;
     height: 60px;
     margin-bottom: 20px;
@@ -145,6 +147,7 @@ button{
     text-align: center;
     border: none;
     color: azure;
+    border: 4px solid azure;
     background-color: rgb(221, 67, 149);
 
 }
@@ -153,13 +156,15 @@ button{
     position: fixed;
     bottom: 15px;
     right: 15px;
+
     font-size: 30px;
-    background-color: azure;
-    color: rgb(221, 67, 149);
+    background-color:  rgb(244, 193, 210);
+    color: azure;
     text-decoration: none;
     border-radius: 20px;
-    border: 2px solid rgb(221, 67, 149);
+    border: 5px solid rgb(221, 67, 149);
+    padding: 10px 30px;
+    margin-left: 30px;
     cursor: pointer;
-    padding: 10px 40px ;
 
 }
