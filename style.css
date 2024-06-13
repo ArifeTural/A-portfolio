@@ -6,6 +6,7 @@
 
 body{
     background-color: rgb(244, 193, 210);
+    position: relative;
 }
 h1{
     margin: 30px;
@@ -13,12 +14,11 @@ h1{
     font-family: "Bungee Shade", sans-serif;
     font-size: 68px;
     text-align: center;
+
 }
 .nav1{
+    position: sticky;
     text-align: center;
-    margin-top: 70px;
-    
-    
 }
 
 .a1{
@@ -105,6 +105,7 @@ img:hover{
 }
 
 #in1, #in2{
+    background-color: rgb(244, 193, 210);
     font-size: 20px;
     margin-left: 300px;
     width: 600px;
@@ -119,6 +120,7 @@ img:hover{
 }
 
 #in3{
+    background-color: rgb(244, 193, 210);
    
     font-size: 20px;
     margin-left: 300px;
@@ -144,5 +146,20 @@ button{
     border: none;
     color: azure;
     background-color: rgb(221, 67, 149);
+
+}
+
+.a2{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 30px;
+    background-color: azure;
+    color: rgb(221, 67, 149);
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid rgb(221, 67, 149);
+    cursor: pointer;
+    padding: 10px 40px ;
 
 }
