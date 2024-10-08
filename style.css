@@ -139,10 +139,9 @@ img:hover{
 
 button{
     font-size: 30px;
-    margin-left: 38%;
+
     width: 600px;
     height: 60px;
-    margin-bottom: 20px;
     border-radius: 10px;
     text-align: center;
     border: none;
@@ -168,8 +167,11 @@ button{
     cursor: pointer;
 
 }
-footer{
+
+form{
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
