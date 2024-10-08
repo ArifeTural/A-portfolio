@@ -110,10 +110,10 @@ img:hover{
 #in1, #in2{
     background-color: rgb(244, 193, 210);
     font-size: 20px;
-    margin-left: 38%;
+   
     width: 600px;
     height: 60px;
-    margin-bottom: 20px;
+
     border-radius: 10px;
     text-align: center;
     color: grey;
@@ -125,10 +125,10 @@ img:hover{
 #in3{
     background-color: rgb(244, 193, 210);
     font-size: 20px;
-    margin-left: 38%;
+
     width: 600px;
     height: 170px;
-    margin-bottom: 20px;
+  
     border-radius: 10px;
     text-align: center;
     color: grey;
