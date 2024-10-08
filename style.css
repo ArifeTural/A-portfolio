@@ -108,7 +108,7 @@ img:hover{
 }
 
 #in1, #in2{
-    background-color: rgb(244, 193, 210);
+    background-color: rgba(244, 193, 210, 0);
     font-size: 20px;
    
     width: 600px;
@@ -123,7 +123,7 @@ img:hover{
 }
 
 #in3{
-    background-color: rgb(244, 193, 210);
+    background-color: rgba(244, 193, 210, 0);
     font-size: 20px;
 
     width: 600px;
@@ -157,7 +157,7 @@ button{
     right: 15px;
 
     font-size: 30px;
-    background-color:  rgb(244, 193, 210);
+    background-color: rgb(165, 110, 139);
     color: azure;
     text-decoration: none;
     border-radius: 20px;
