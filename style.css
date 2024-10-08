@@ -139,7 +139,6 @@ img:hover{
 
 button{
     font-size: 30px;
-
     width: 600px;
     height: 60px;
     border-radius: 10px;
@@ -148,6 +147,7 @@ button{
     color: azure;
     border: 4px solid azure;
     background-color: rgb(221, 67, 149);
+    margin: auto;
 
 }
 
