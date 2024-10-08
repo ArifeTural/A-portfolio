@@ -168,3 +168,8 @@ button{
     cursor: pointer;
 
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

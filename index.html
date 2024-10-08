@@ -23,22 +23,26 @@
     </header>
 
     <nav class="nav1" >
-        <a class="a1" href="">Home</a>
-        <a class="a1" href="">About</a>
-        <a class="a1" href="">Projects</a>
-        <a class="a1" href="">Contact</a>
+        <a class="a1" href="#">Home</a>
+        <a class="a1" href="#par">About</a>
+        <a class="a1" href="#foto">Projects</a>
+        <a class="a1" href="#contact">Contact</a>
       </nav>
      
       <nav>
         <section>
-          <p>
+          
+          <p id="par">
+            <br>
+            <br>
             Hi there! I am Arife Tural. I have A great passion for software
             development..
+            
           </p>
         </section>
       </nav>
       <nav>
-        <div class="fotolar">
+        <div class="fotolar" id="foto">
             <h2>My Projects</h2>
            <a href="">
             <img src="https://cdn.pixabay.com/photo/2020/06/22/13/38/nature-5329244_1280.jpg" alt="">
@@ -70,7 +74,7 @@
       <nav>
        <h2>Contact Me</h2> 
 
-       <div class="contact" >
+       <div class="contact"  id="contact">
         <i class="fa-brands fa-github"> <p class="par" > Github </p></i>
         <i class="fa-brands fa-linkedin"> <p class="par" > Linked In </p></i>
         <i class="fa-brands fa-twitter"> <p class="par" > Twitter</p></i>
@@ -83,11 +87,11 @@
         <h2 class="msg ">Send Message</h2>
         <form action="">
             <input type="text" name="user" id="in1" placeholder="Usename"> <br>
-            <input type="text" name="email" id="in2" placeholder="Email">
+            <input type="email" name="email" id="in2" placeholder="Email">
             <br>
-            <input type="text" name="messsge" id="in3" placeholder="Your message">
-        </form>
-        <button>SEND</button>
+            <textarea name="" id="in3" cols="30" rows="10" placeholder="Your Message"></textarea>
+          </form>
+       <a href=""> <button>SEND</button> </a> 
 
         <section class="slack">
         <a class="a2" href=""> Top 
@@ -97,3 +101,4 @@
     </footer>
   </body>
 </html>
+
